@@ -1,0 +1,337 @@
+@import url(css/font.css);
+
+h1, h2, h3, blockquote, p {
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: #FFFFFF;
+}
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+body {
+    padding: 0 auto;
+    margin: 0 auto;
+    /*background-image: url(./ressources/img/rsc/bckUniverse.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;*/
+    background-color: #0a071c;
+    width: 100vw;;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+}
+
+#bloc-page{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: auto;
+    gap: 20px;
+    border-right: 1px solid #01896081;
+    border-left: 1px solid #01896081;
+    
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+    flex-grow: 2;
+    
+}
+
+/* Style conteneur du titre d'en-tête */
+
+#header-container {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-top: 30px;
+    padding-bottom: 5px;
+    width: auto;
+    justify-content: space-between;
+
+}
+#header-info-text {
+     display: flex;
+     top: 20px;
+     left: 50px;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+
+}
+
+
+
+/* Style bordure contour du conteneur titre */
+
+
+
+/* Style titre H1 */
+#header-logo {
+}
+#index-title {
+
+    font-size: 15px;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    text-align: left;
+
+}
+
+#header-name {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+    width: auto;
+}
+
+#header-job {
+    font-size: 15px;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+    width: auto;
+}
+
+/* Style slogan personnelle */
+
+#container__quote {
+    
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+#index-quote {
+
+    font-size: 11px;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    
+}
+
+/* Style profil-picture */
+#header-picture {
+    position: fixed;
+    right: -150px;
+    bottom: 350px;
+    width: 700px;
+    opacity: 10%;
+}
+#picture-profil {
+    width: 1000px;
+    opacity: 70%;
+}
+/* Style article biographie d'entreprise */
+
+/* Style gallerie d'icone des média sociaux */
+.social-link {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: 75px;
+    box-shadow: inset 0px 0px 20px 0px  #1d023c;
+    border: 1px solid #01896081;
+    border-radius: 10px;
+    align-items: baseline;
+    padding-bottom: 15px;
+}
+.social-link:hover {
+
+    transform: scale(120%);
+    transition-duration: 0.7s;
+}
+#social-network {
+
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    width: 80%;
+    height: auto;
+    gap: 20px;
+    row-gap: 20px;
+    flex-wrap: wrap;
+    padding-top: 10px;
+
+}
+#social-network a img {
+
+    display: flex;
+    align-self: center;
+    width: 120px;
+    height: 75px;
+    margin-top: 25px;
+    margin-bottom: 2vh;
+}
+
+
+/* Style Biographie */
+
+
+#section-biographie {
+    display: block;
+    width: 70%;
+}
+#section-biographie, p{
+    font-size: 13px;
+    text-align: center;
+}
+
+
+/* Style gallery des projets */
+
+
+#section-project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    width: 100%;
+    height: auto;
+}
+
+#gallery-project {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: auto;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+.project-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    border: 1px solid #101010;
+    border-radius: 10px;
+    box-shadow: inset 1px 1px 3px 1px #01896081;
+    height: auto;
+    width: 40%;
+    box-sizing: content-box;
+} 
+.project-card:hover{
+    
+    transform: scale(110%);
+    transition-duration: 0.5s;
+}
+.image-project {
+    width: 210px;
+    height: 55px;
+    box-sizing: content-box;
+}
+.ohmyfoodsvg {
+    width: 200px;
+    fill: #F2F3F2;
+}
+.card-project-title {
+    text-align: center;
+    width: 50%;
+}
+
+
+
+/* Style gallerie d'outils */
+
+
+#section-utils {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 80%;
+    gap: 20px;
+    flex-wrap: wrap;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    border-bottom:1px solid #01896081;
+    border-top: 1px solid #01896081;
+}
+/* Style gallerie language */
+#section-utils__language {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 45%;
+    align-items: center;
+    text-align: center;
+    height: 450px;
+
+}
+#section-utils__language__title {
+
+    height: auto;
+    font-size: medium;
+    text-align: center;
+
+}
+#gallery-utils__language {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 20px;
+    border-radius: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+}
+.card-language {
+    width: calc(( 100% / 3 ) - ( 4 * 20px));
+    height: auto;
+    border-left: 1px solid #F2F3F2;
+}
+#gallery-utils__language img {
+    width: 100%;
+}
+
+/* gallerie des Outils graphiques */
+#section-utils__graphist {
+
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+
+}
+#section-graphist__title {
+
+    height: auto;
+    font-size: medium;
+    text-align: center;
+
+}
+#gallery-utils__graphist {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 20px;
+    text-align: center;
+}
+#card-utils__graphist {
+    width: calc(( 100% / 3 ) - ( 4 * 20px));
+    height: auto;
+}
+#card-utils__graphist img {
+    width: 100%;
+}
