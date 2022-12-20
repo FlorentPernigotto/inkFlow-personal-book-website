@@ -1,12 +1,12 @@
 @import url(css/font.css);
-
+@import url(css/animations.css);
 h1, h2, h3, blockquote, p {
     font-family: 'Montserrat Alternates', sans-serif;
-    color: #FFFFFF;
+    color: #290237;
 }
 a {
     text-decoration: none;
-    color: #FFFFFF;
+    color: #290237;
 }
 
 body {
@@ -16,7 +16,8 @@ body {
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;*/
-    background-color: #0a071c;
+    background-color: #F2F3F2;
+    color: #101010;
     width: 100vw;;
     display: flex;
     justify-content: center;
@@ -30,8 +31,10 @@ body {
     width: 80%;
     height: auto;
     gap: 20px;
-    border-right: 1px solid #01896081;
-    border-left: 1px solid #01896081;
+    border-right: 1px solid #290237;
+    border-left: 1px solid #290237;
+    margin-top: 5px;
+    border-top: 1px solid #290237;
     
 }
 
@@ -55,10 +58,42 @@ header {
     justify-content: space-between;
 
 }
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    gap: 20px;
+    
+    
+    animation: slide-down 1s ease-out;
+    animation: slide-down 1s ease-out;
+}
+nav a:focus {
+    
+    transform: translateY(15px);
+    transition-duration: 2s;
+}
+
+nav a {
+    display: flex;
+    border-right:1px solid #290237;
+    border-left: 1px solid #290237;
+    border-bottom: 1px solid #290237;
+    border-top: 1px solid #290237;
+    border-radius: 3px;
+    padding: 20px 52px;
+    opacity: 50%;
+    width: 40%;
+
+    text-align: center;
+    justify-content: center;
+}
+
 #header-info-text {
      display: flex;
      flex-direction: column;
-     margin-right: 20%;
      align-items: center;
 }
 /* Style titre H1 */
@@ -68,6 +103,7 @@ header {
     margin: 0;
     padding: 0;
     width: auto;
+    text-align: left;
 }
 #header-name {
     font-size: 20px;
@@ -96,18 +132,6 @@ header {
     padding: 0;
     text-align: center;
 }
-/* Style profil-picture */
-#header-picture {
-    position: fixed;
-    right: -150px;
-    bottom: 350px;
-    width: 700px;
-    opacity: 10%;
-}
-#picture-profil {
-    width: 1000px;
-    opacity: 70%;
-}
 /* Style article biographie d'entreprise */
 
 /* Style gallerie d'icone des média sociaux */
@@ -116,9 +140,6 @@ header {
     justify-content: center;
     width: auto;
     height: 75px;
-    box-shadow: inset 0px 0px 20px 0px  #1d023c;
-    border: 1px solid #01896081;
-    border-radius: 10px;
     align-items: baseline;
     padding-bottom: 15px;
 }
@@ -148,6 +169,19 @@ header {
     height: 75px;
     margin-top: 25px;
     margin-bottom: 2vh;
+}
+#img-facebook{
+    fill: #290237;
+}
+#img-twitter{
+    fill: #290237;
+}
+#img-github {
+    fill: #290237;
+}
+#img-instagram{
+    fill: #290237;
+
 }
 
 
@@ -180,23 +214,21 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
     width: auto;
-    gap: 50px;
+    gap: 30px;
     flex-wrap: wrap;
 }
 .project-card {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-left: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right: 10px;
-    border: 1px solid #101010;
-    border-radius: 10px;
-    box-shadow: inset 1px 1px 3px 1px #01896081;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
     height: auto;
-    width: 40%;
+    width: 20%;
     box-sizing: content-box;
 } 
 .project-card:hover{
@@ -205,17 +237,16 @@ header {
     transition-duration: 0.5s;
 }
 .image-project {
-    width: 210px;
-    height: 55px;
+    width: 100%;
+    height: auto;
     box-sizing: content-box;
 }
 .ohmyfoodsvg {
-    width: 200px;
-    fill: #F2F3F2;
-}
-.card-project-title {
-    text-align: center;
-    width: 50%;
+    width: 130px;
+    height: auto;
+    fill: #290237;
+    box-sizing: content-box;
+
 }
 
 
