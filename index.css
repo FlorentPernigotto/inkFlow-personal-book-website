@@ -43,11 +43,8 @@ header {
     flex-grow: 2;
     
 }
-
 /* Style conteneur du titre d'en-tête */
-
 #header-container {
-    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -60,34 +57,18 @@ header {
 }
 #header-info-text {
      display: flex;
-     top: 20px;
-     left: 50px;
      flex-direction: column;
-     justify-content: center;
+     margin-right: 20%;
      align-items: center;
-
 }
-
-
-
-/* Style bordure contour du conteneur titre */
-
-
-
 /* Style titre H1 */
-#header-logo {
-}
 #index-title {
-
     font-size: 15px;
     font-weight: 600;
     margin: 0;
     padding: 0;
     width: auto;
-    text-align: left;
-
 }
-
 #header-name {
     font-size: 20px;
     font-weight: 600;
@@ -95,7 +76,6 @@ header {
     padding: 0;
     width: auto;
 }
-
 #header-job {
     font-size: 15px;
     font-weight: 600;
@@ -103,26 +83,19 @@ header {
     padding: 0;
     width: auto;
 }
-
 /* Style slogan personnelle */
-
 #container__quote {
     
     margin-top: 10px;
     margin-bottom: 10px;
-
 }
-
 #index-quote {
-
     font-size: 11px;
     font-weight: 500;
     margin: 0;
     padding: 0;
     text-align: center;
-    
 }
-
 /* Style profil-picture */
 #header-picture {
     position: fixed;
