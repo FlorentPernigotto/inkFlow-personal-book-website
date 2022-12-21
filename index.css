@@ -81,6 +81,7 @@ nav a {
     border-left: 1px solid #290237;
     border-radius: 10px;
     padding: 20px 20px;
+    margin: 0px 10px;
     opacity: 50%;
     width: 100%;
 
@@ -98,7 +99,7 @@ nav a {
     border-right: 1px solid #343434;
     border-left: 1px solid #343434;
     border-radius: 10px;
-    animation: slideup 2s ease-out;
+    animation: scaleZ 2s ease-out;
 }
 /* Style titre H1 */
 #index-title {
