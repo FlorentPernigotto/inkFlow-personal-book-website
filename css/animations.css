@@ -11,12 +11,20 @@
 /* Slide up */
 
 @-webkit-keyframes slideup {
-  0% { opacity: 0; -webkit-transform: translateX(0%); }   
-100% { opacity: 1; -webkit-transform: translateX(100%); }
+  0% { opacity: 0; -webkit-transform: translateX(100%); }   
+100% { opacity: 1; -webkit-transform: translateX(-100%); }
+}
+@-webkit-keyframes slideup {
+  0% { opacity: 0; -webkit-transform: translateX(100%); }   
+100% { opacity: 1; -webkit-transform: translateX(-100%); }
 }
 
 /* Scale X */
-@-webkit-keyframes scaleZ {
-  0% { opacity: 0; -webkit-transform: scaleZ(0%); }   
-100% { opacity: 1; -webkit-transform: scaleZ(100%); }
+@-webkit-keyframes scaleZgallery {
+  0% { opacity: 0; -webkit-transform: scale3d(0%); }   
+100% { opacity: 1; -webkit-transform: scale3d(150%); }
+}
+@-moz-keyframes scaleZ {
+  0% { opacity: 0; -webkit-transform: scale3d(0%); }   
+100% { opacity: 1; -webkit-transform: scale3d(100%); }
 }
