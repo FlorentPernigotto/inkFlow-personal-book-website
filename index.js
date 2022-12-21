@@ -4,4 +4,4 @@ window.addEventListener('resize', function() {
     } else {
       document.querySelector('nav').classList.remove('hidden');
     }
-  });
+});

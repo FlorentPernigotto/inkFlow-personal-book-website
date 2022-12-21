@@ -2,7 +2,20 @@
     0% { opacity: 0; -webkit-transform: translateY(-100%); }   
   100% { opacity: 1; -webkit-transform: translateY(0); }
 }
+
 @-moz-keyframes slide-down {
     0% { opacity: 0; -moz-transform: translateY(-100%); }   
   100% { opacity: 1; -moz-transform: translateY(0); }
+}
+
+/* Slide up */
+
+@-webkit-keyframes slideup {
+  0% { opacity: 0; -webkit-transform: translateX(100%); }   
+100% { opacity: 1; -webkit-transform: translateX(-100%); }
+}
+
+@-moz-keyframes slideup {
+  0% { opacity: 0; -moz-transform: translateX(100%); }   
+100% { opacity: 1; -moz-transform: translateX(-100%); }
 }
