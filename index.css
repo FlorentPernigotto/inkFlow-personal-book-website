@@ -1,10 +1,14 @@
 @import url(css/font.css);
 @import url(css/animations.css);
+@import url(css/reset.css);
+
 h1, h2, h3, blockquote, p {
     font-family: 'Montserrat Alternates', sans-serif;
     color: #290237;
 }
 a {
+    
+    font-family: 'Montserrat Alternates', sans-serif;
     text-decoration: none;
     color: #290237;
 }
@@ -198,7 +202,8 @@ nav a {
     align-self: center;
     width: 100%;
     height: auto;
-    border-top: 1px solid #290237;
+    border-top: 1px solid #343434;
+    border-radius: 10px;
 }
 
 #gallery-project {
@@ -233,7 +238,7 @@ nav a {
     box-sizing: content-box;
 }
 .ohmyfoodsvg {
-    width: 130px;
+    width: 17vw;
     height: auto;
     fill: #290237;
     box-sizing: content-box;
@@ -255,9 +260,9 @@ nav a {
     flex-wrap: wrap;
     align-self: center;
     align-items: center;
-    justify-content: center;
     border-bottom:1px solid #290237;
     border-top: 1px solid #290237;
+    border-radius: 10px;
 }
 /* Style gallerie language */
 #section-utils__language {
@@ -265,13 +270,6 @@ nav a {
     display: flex;
     flex-direction: column;
     width: 45%;
-
-}
-#section-utils__language__title {
-
-    height: auto;
-    font-size: medium;
-    text-align: center;
 
 }
 #gallery-utils__language {
@@ -290,7 +288,7 @@ nav a {
     border-left: 1px solid #F2F3F2;
 }
 #gallery-utils__language img {
-    width: 100%;
+    width: 80%;
 }
 
 /* ICONE LANGUAGE */
@@ -315,20 +313,27 @@ nav a {
 
 }
 #gallery-utils__graphist {
-    position: relative;
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    position: relative;
+    align-items: center;
+    align-self: center;
     flex-wrap: wrap;
     width: 100%;
     gap: 20px;
-    text-align: center;
 }
 #card-utils__graphist {
-    width: calc(( 100% / 3 ) - ( 4 * 20px));
+    width: 100%;
     height: auto;
+    align-items: center;
+    align-self: center;
 }
 #card-utils__graphist img {
-    width: 100%;
+    width: 80%;
+}
+
+
+
+
+footer {
+    margin-bottom: 10px;
 }
